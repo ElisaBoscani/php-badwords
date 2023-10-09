@@ -15,7 +15,7 @@ var_dump($parole)
   <p><?php echo $parolaForm  ?>  </p>
   <span><?php echo strlen($parolaForm);?></span>
 <h2>Parola censurata</h2>
-  <p><?php echo str_replace($parole, '*', $parolaForm ) ?>  </p>
+  <p><?php echo str_replace($parole[1], '***', $parolaForm ) ?>  </p>
   <span><?php echo strlen($parolaForm);?></span>
 </body>
 </html>
