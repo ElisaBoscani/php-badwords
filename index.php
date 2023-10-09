@@ -1,5 +1,5 @@
 <?php 
-var_dump($_GET)
+
 ?>
 
 
@@ -12,9 +12,11 @@ var_dump($_GET)
 </head>
 <body>
   <h1>Barwords</h1>
-  <form action="script.php" method="$_GET">
+  
+  <form action="script.php" method="GET">
     <input type="text" name="paragrafo" id="paragrafo" >
     <button type="submit">invia</button>
   </form>
+  
 </body>
 </html>
