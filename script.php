@@ -1,8 +1,9 @@
 <?php
 var_dump($_GET);
 $parolaForm = $_GET["paragrafo"]; 
-$parole = explode(' ', $parolaForm);
-var_dump($parole)
+$parolaCensurata=$_GET["censura"];
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +16,7 @@ var_dump($parole)
   <p><?php echo $parolaForm  ?>  </p>
   <span><?php echo strlen($parolaForm);?></span>
 <h2>Parola censurata</h2>
-  <p><?php echo str_replace($parole[1], '***', $parolaForm ) ?>  </p>
+  <p><?php echo str_replace($parolaCensurata, '***', $parolaForm ) ?>  </p>
   <span><?php echo strlen($parolaForm);?></span>
 </body>
 </html>

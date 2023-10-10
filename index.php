@@ -15,6 +15,7 @@
   
   <form action="script.php" method="GET">
     <input type="text" name="paragrafo" id="paragrafo" >
+    <input type="text" name="censura" id="censura" >
     <button type="submit">invia</button>
   </form>
   
