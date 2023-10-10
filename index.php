@@ -14,8 +14,8 @@
   <h1>Barwords</h1>
   
   <form action="script.php" method="GET">
-    <input type="text" name="paragrafo" id="paragrafo" >
-    <input type="text" name="censura" id="censura" >
+    <input type="text" name="paragrafo" id="paragrafo" placeholder="scrivi una frase">
+    <input type="text" name="censura" id="censura" placeholder="scrivi la parola da censurare" >
     <button type="submit">invia</button>
   </form>
   
